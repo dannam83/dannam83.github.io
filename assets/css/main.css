@@ -4512,3 +4512,11 @@
 		justify-content: center;
 		align-items: center;
 	}
+
+	#gap {
+		height: 0px;
+	}
+
+	#p-gap {
+		margin-bottom: 14px;
+	}
