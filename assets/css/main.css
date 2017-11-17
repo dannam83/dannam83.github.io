@@ -4496,6 +4496,10 @@
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 	}
 
+	#my-contact:hover {
+		color:black !important;
+	}
+
 	#my-projects-anchor:focus {
 		outline: 0;
 	}
