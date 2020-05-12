@@ -23,7 +23,7 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Daniel Nam</h1>
-						<p>Software Developer<br />
+						<p>React Native Developer<br />
 							<a href="https://github.com/dannam83"
 								class="icon alt fa-github" id="mylink" target="_blank">
 								<span class="label">GitHub</span></a>
@@ -76,21 +76,21 @@
 							<article class="post featured" id="about-container">
 								<header class="major" id="about-header">
 									<span class="date">About</span>
-									<h2><a href="images/resume.pdf">Daniel Nam</a></h2>
-									<p id="p-gap">I am a full stack developer with experience in Ruby on Rails, React-Redux, Javascript, HTML, and CSS.</p>
-										<div id="gap"></div>
-									<p id="p-gap">
-									I love coding because it provides a space for any idea to come to life, and I love ideas. If life is like a box of chocolates, ideas are the chocolate, and I am Willy Wonka.</p>
+									<h2><a href="images/resume.pdf" target="_blank">Daniel Nam</a></h2>
+									<p id="p-gap">I am a React Native Developer. I am passionate about clean, readable, scalable code, and I am even more passionate about every pixel contributing to a smooth engaging user experience.</p>
+                                    <div id="gap"></div>
+									<p id="p-gap">#otherInterests #traveling #stocks #food #guitar #soccer #boxing #poker #sleep #fantasyFootball #seattleSeahawks #jesus</p>
+                                    <!-- Additional paragraph below to write more stuff -->
 									<div id="gap"></div>
-									<p id="p-gap">When I'm not coding I'm spending time with my fiance, jamming on my guitar, or getting involved with my church and trying to do my part in making this world a little bit better than it was yesterday.</p>
+									<p id="p-gap"></p>
 								</header>
-								<a href="images/resume.pdf" class="image main" id="profile-container">
+								<a href="images/resume.pdf" target="_blank" class="image main" id="profile-container">
 									<img src="images/pic01.jpg" alt="" />
 									<img src="images/profile.jpeg" id="profile-pic" alt="" />
 
 								</a>
 								<ul class="actions" id="resume-link">
-									<li><a href="images/resume.pdf" class="button big">Resume</a></li>
+									<li><a href="images/resume.pdf" target="_blank" class="button big">Resume</a></li>
 								</ul>
 							</article>
 
@@ -98,17 +98,51 @@
 							<section class="posts">
 								<article>
 									<header>
+										<h2><a name="projects" href="https://www.quadio.com/"
+											target="_blank" id="my-projects-anchor">Quadio<br />
+										</a></h2>
+										<span class="date">Make Music. Make Friends.</span>
+									</header>
+									<a href="https://apps.apple.com/us/app/quadio-social-music-streaming/id1493537485" class="image fit"
+										target="_blank"><img src="images/quadio.png" alt="" /></a>
+									<p>Quadio is an app for college students to share and find music by their school. Think of it as a hybrid between Facebook and Spotify. I came on as the first React Native Developer and had the original beta running on my own.</p>
+									<ul class="actions">
+										<li><a href="https://www.quadio.com/learn-more" class="button"
+											target="_blank" id="project-link">About</a></li>
+										<li><a href="https://apps.apple.com/us/app/quadio-social-music-streaming/id1493537485" class="button"
+											target="_blank" id="project-link">Apple</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://dannam.xyz/detective/"
+											target="_blank">Detective<br />
+										</a></h2>
+										<span class="date">Multiplayer word strategy game</span>
+									</header>
+									<a href="https://apps.apple.com/us/app/play-with-friends-detective/id1507202691" class="image fit"
+										target="_blank"><img src="images/detective.png" alt="" /></a>
+									<p>I love the game Code Names, and I wanted a better way to play, so I made it with Expo. I found boring renditions online, so I concentrated on look and feel to create a vastly more engaging, interactive, and FUN experience.</p>
+									<ul class="actions">
+										<li><a href="https://apps.apple.com/us/app/play-with-friends-detective/id1507202691" class="button"
+											target="_blank" id="project-link">Apple</a></li>
+										<li><a href="https://play.google.com/store/apps/details?id=com.playwithfriends.detective" class="button"
+											target="_blank" id="project-link">Android</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
 										<h2><a name="projects" href="https://github.com/dannam83/Eatery"
 											target="_blank" id="my-projects-anchor">Eatery<br />
 										</a></h2>
-										<span class="date">Inspired by Yelp</span>
+										<span class="date">Restaurant review website</span>
 									</header>
 									<a href="https://github.com/dannam83/Eatery" class="image fit"
 										target="_blank"><img src="images/eatery.png" alt="" /></a>
-									<p>Eatery is a full stack web application built with Ruby on Rails in the backend and React-Redux on the frontend. It features password encryption for accounts, Google Maps API implementation, instantly updated form submissions, and fully functional search.</p>
+									<p>Eatery is a personal full stack project built with React-Redux, Ruby on Rails, and PostgreSQL. I am an avid Yelp user, and so I thought I'd try my hand at replicating it. Stop by to create a new account and write your own reviews!</p>
 									<ul class="actions">
 										<li><a href="https://www.eaterydn.xyz/" class="button"
-											target="_blank" id="project-link">Live Site</a></li>
+											target="_blank" id="project-link">Site</a></li>
 										<li><a href="https://github.com/dannam83/Eatery" class="button"
 											target="_blank"id="project-link">Repo</a></li>
 									</ul>
@@ -118,14 +152,14 @@
 										<h2><a href="https://github.com/dannam83/Wall_E_Ball"
 											target="_blank">Wall-E Ball<br />
 										</a></h2>
-										<span class="date">Inspired by Doodle Jump</span>
+										<span class="date">Single player web game</span>
 									</header>
 									<a href="https://dannam.xyz/Wall_E_Ball" class="image fit"
 										target="_blank"><img src="images/walleball.png" alt="" /></a>
-									<p>Wall-E Ball is a purely JavaScript web app. It utilizes JavaScript Canvas and requestAnimationFrame to render a seamless scrolling 2D motion experience. Euclidean vectors are used to modify Wall-E's movements and to simulate gravity.</p>
+									<p>Wall-E Ball is a JavaScript web app I made with Canvas. If you've played Doodle Jump, then you know the concept. It was fun recalling lessons in physics as I tried simulating gravity in this bouncy bounce game to help Wall-E.</p>
 									<ul class="actions">
 										<li><a href="https://dannam.xyz/Wall_E_Ball/" class="button"
-											target="_blank" id="project-link">Live Site</a></li>
+											target="_blank" id="project-link">Play</a></li>
 										<li><a href="https://github.com/dannam83/Wall_E_Ball" class="button"
 											target="_blank" id="project-link">Repo</a></li>
 									</ul>
@@ -225,14 +259,15 @@
 						</section>
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
-								<p>39th St & 6th Ave<br />
-									New York, NY
+								<h3>Location</h3>
+								<p>
+                                    <!-- 39th St & 6th Ave<br /> -->
+									Brooklyn, NY
 								</p>
 							</section>
 							<section>
 								<h3>Phone</h3>
-								<p><a href="tel:781-866-0528">(781) 866-0528</a></p>
+								<p><a href="tel:646-630-0366">(646) 630-0366</a></p>
 							</section>
 							<section>
 								<h3>Email</h3>
